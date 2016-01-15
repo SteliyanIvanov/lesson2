@@ -1,0 +1,233 @@
+html, body, ul, li
+{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.clearfix:after 
+{
+	clear: both;
+	content: '';
+	display: table;
+}
+.head
+{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.top
+{
+	width: 100%;
+	background-color: rgba(16, 22, 54, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.logo, .top-menu
+{
+	width: 40%;
+	margin: 0 5%;
+	float: left;
+}
+.logo
+{
+	color: rgba(255, 255, 255, 0.5);
+}
+.logo img
+{
+	display: block;
+	width: 100%;
+}
+.logo a, .top-menu a
+{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+.logo li, .top-menu li
+{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	padding: 2% 0;
+}
+.logo li
+{
+	width: 50%;
+}
+.top-menu li
+{
+	width: 20%;
+	border-top: 2px solid;
+	border-color: transparent;
+}
+.fall
+{
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+}
+.fall li
+{
+	display: block;
+	width: 100%;
+}
+.top-menu li:hover
+{
+	border-color: #32b0ee;
+}
+.top-menu li:hover div
+{
+	height: auto;
+}
+.slider, .social
+{
+	width: 100%;
+	position: absolute;
+	bottom: 15%;
+	z-index: 1;
+	text-align: center;
+}
+.social
+{
+	bottom: 0%;
+}
+.social li
+{
+	display: inline-block;
+	text-decoration: none;
+	width: 5%;
+}
+.main-text
+{
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 60px;
+}
+.main-text p
+{
+	font-size: 48px;
+}
+.main-text p span
+{
+	color: #0fd993;
+}
+#container
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+.section
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+.big-lett
+{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #0eb493;
+	text-transform: uppercase;
+}
+.under
+{
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+}
+.wrap
+{
+	width: 80%;
+	margin: 5% auto;
+}
+.wrap ul
+{
+	display: block;
+	width: 80%;
+	margin: 1% auto;
+	text-align: center;
+}
+.wrap li
+{
+	display: block;
+	text-decoration: none;
+	width: 17%;
+	padding: 1%;
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 5px;
+	float: left;
+}
+.wrap a
+{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #000;
+}
+.wrap a:hover
+{
+	color: #fff;
+}
+.wrap li:hover
+{
+	background-color: #0eb493;
+}
+.f2
+{
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.before
+{
+	width: 10%;
+	float: left;
+	margin: 0;
+	padding: 5% 1%;
+}
+.before img
+{
+	display: block;
+	width: 100%;
+}
+.text-f
+{
+	width: 88%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.cont
+{
+	display: block;
+	width: 100%;
+}
+.gallery
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.photo
+{
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.photo img
+{
+	display: block;
+	width: 100%;
+}
